@@ -177,7 +177,9 @@ cordova.plugins.fileOpener2.appIsInstalled('com.adobe.reader', {
 ```
 ---
 
-## Android APK installation limitation
+## Android APK installation limitation (Remove - 2022-11-14 )
+
+Remark: https://support.google.com/googleplay/android-developer/answer/9888170?visit_id=638040083006026206-1946459520&rd=1#request_install_package
 
 The following limitations apply when opening an APK file for installation:
 - On Android 8+, your application must have the `ACTION_INSTALL_PACKAGE` permission. You can add it by adding this to your app's `config.xml` file:
